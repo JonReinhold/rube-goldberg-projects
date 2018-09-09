@@ -1,5 +1,10 @@
 # take arguments from CLI to determine process
 
+puts "Debug start."
+
+cli_args = ARGV
+puts cli_args
+
 class CLI
 	def run_py
 	
@@ -10,6 +15,6 @@ class CLI
 	end
 end
 
-puts "Debug end" 
+puts "Debug end."
 
 
